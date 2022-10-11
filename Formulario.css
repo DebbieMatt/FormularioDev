@@ -3,20 +3,21 @@
      margin: 0;
     padding: 0;
     vertical-align: baseline;
+    text-align: center;
 }
 
 /* Elementos com o ID "titulo" */
-#titluo{
+#titulo{
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 7%;
+    margin-left: 0%;
 }
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo{
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 10%;   
+    margin-left: 0%;   
 }
 
 /* Elementos da tag <fieldset>*/
@@ -27,15 +28,15 @@ fieldset{
 /* Elemento da tag <body> */
 body{
     background-color: #F0F8FF;
+    display: inline-block;
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
-    margin-top: 2%;
     justify-content: center;   
 }
 
 input, select, textarea, button{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .campo{
@@ -46,6 +47,7 @@ input, select, textarea, button{
     margin-bottom: 0.2em;
     color: #59429d;
     display: flex;
+    text-align: center;
 }
 
 fieldset.grupo.campo{
@@ -77,7 +79,7 @@ fieldset.grupo.campo{
     padding: 0.2em 0.6em;
     box-shadow: 2 px  2 px  2 px  rgba ( 0 , 0 , 0 , 0.2 );
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
+    position: static;
     top: 90%;
     left: 50%;
     margin-right: -50%;
